@@ -2,10 +2,71 @@
     font-family: gilroy;
     src: url('../../Assets/Fonts/gilroy/Gilroy-Regular.woff')  format("woff");
   }
+@font-face{
+    font-family: Gilroy-ExtraBold;
+    src: url('../../Assets/Fonts/gilroy/Gilroy-ExtraBold.woff')  format("woff");
+}
   
   *{
     margin: 0;
     padding: 0;
     border: 0;
     font-family: gilroy, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .container-home{
+      position: absolute;
+      height: 100%;
+      background-image: url('../../Assets/Image/bg1.png');
+      background-size: cover;
+  }
+
+  .content-home{
+    margin-top: 17%;
+    margin-left: 5%;
+    width: 40%;
+    text-align: left;
+    color:#6c6f79;
+    font-size: 1.25em;
+    letter-spacing: 1px;
+  }
+
+  .title{
+    font-weight: bold;
+    color:#74308a;
+    font-size: 2.25em;
+    margin-bottom: 30px;
+    font-family: Gilroy-ExtraBold;
+  }
+
+  .container-home b {
+    color:#ca2231;
+    font-family: Gilroy-ExtraBold;
+  }
+
+  .btn-challenge{
+    margin-top: 30px;
+    background: #ca2231;
+    background-image: linear-gradient(to right, #ca2231, #743089);
+    border-radius: 11px;
+    color: #fff;
+    font-family: Gilroy-ExtraBold;
+    padding: 20px 50px 20px 50px;
+    font-size: 1.25em;
+    cursor: pointer;
+  }
+
+  .btn-challenge:hover{
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+  }
+
+  @media (max-width: 425px) {
+    .content-home{
+        width: auto;
+        margin-top: 25%;
+    }
+    .btn-challenge{
+        font-size: 1em;
+        padding: 20px 20px;
+    }
   }
