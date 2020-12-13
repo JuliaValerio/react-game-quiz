@@ -59,3 +59,49 @@
   .btn-next:hover{
     box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
   }
+
+  @media (max-width: 1024px) {
+    .content-instructions{
+        margin-top: 10%;
+        width: 90%;
+    }
+    .btn-next{
+        margin-top: -20px;
+        margin-left: 40%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .content-instructions{
+        width: 90%;
+    }
+    .btn-next{
+        margin-left: 40%;
+    }
+  }
+
+  @media (max-width: 425px) {
+      .content-instructions{
+          display: flex;
+          flex-direction: column;
+      }
+      .content-instructions div{
+        width: 100%;
+    }
+    .btn-next{
+        margin-left: 30%;
+    }
+  }
+
+  
+  @media (max-width: 375px) {
+    .btn-next{
+        margin-left: 29%;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .btn-next{
+        margin-left: 25%;
+    }
+  }
