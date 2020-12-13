@@ -11,12 +11,14 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
     font-family: gilroy, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
   .container-home{
       position: absolute;
       height: 100%;
+      width: 100%;
       background-image: url('../../Assets/Image/bg1.png');
       background-size: cover;
   }
@@ -44,20 +46,47 @@
     font-family: Gilroy-ExtraBold;
   }
 
+  .content-home p {
+    margin-bottom: 35px;
+  }
+
   .btn-challenge{
+    text-decoration: none;
     margin-top: 30px;
     background: #ca2231;
     background-image: linear-gradient(to right, #ca2231, #743089);
     border-radius: 11px;
     color: #fff;
     font-family: Gilroy-ExtraBold;
-    padding: 20px 50px 20px 50px;
+    padding: 15px 30px 15px 30px;
     font-size: 1.25em;
     cursor: pointer;
   }
 
   .btn-challenge:hover{
     box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+  }
+
+  @media (max-width: 1024px) {
+    .content-home{
+        width: 70%;
+        margin-top: 25%;
+    }
+    .btn-challenge{
+        font-size: 1em;
+        padding: 10px 10px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .content-home{
+        width: 70%;
+        margin-top: 25%;
+    }
+    .btn-challenge{
+        font-size: 1em;
+        padding: 10px 10px;
+    }
   }
 
   @media (max-width: 425px) {
@@ -68,5 +97,17 @@
     .btn-challenge{
         font-size: 1em;
         padding: 20px 20px;
+    }
+  }
+
+  
+  @media (max-width: 375px) {
+    .content-home{
+        width: 90%;
+        margin-top: 25%;
+    }
+    .btn-challenge{
+        font-size: 0.5em;
+        padding: 10px 10px;
     }
   }

@@ -1,0 +1,61 @@
+.container-instructions {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../Assets/Image/bg2.png');
+    background-size: cover;
+}
+
+.content-instructions {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(202, 32, 48);
+    color:#fff;
+    margin-top: 15%;
+    margin-left: 5%;
+    width: 50%;
+    padding: 10px;
+    text-align: left;
+    border-radius: 20px;
+    min-height: 250px;
+    border: 1px red solid;
+    background-clip: content-box;
+}
+
+.content-instructions div {
+    width: 50%;
+}
+
+.content-instructions p {
+   margin: 15px;
+}
+
+.instructions-right{
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+.instructions-right img{
+    width: 45%;
+}
+
+.btn-next{
+    text-decoration: none;
+    margin-top: 30px;
+    background: #ca2231;
+    background-image: linear-gradient(to right, #ca2231, #743089);
+    border-radius: 11px;
+    color: #fff;
+    font-family: Gilroy-ExtraBold;
+    padding: 15px 30px 15px 30px;
+    font-size: 1.25em;
+    cursor: pointer;
+    margin-left: 23%;
+    margin-top: -30px;
+    position: absolute;
+    border: 1px solid #fff;
+  }
+
+  .btn-next:hover{
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+  }
