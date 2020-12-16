@@ -23,7 +23,7 @@
 }
 
 .content-instructions div {
-    width: 50%;
+    width: 100%;
 }
 
 .content-instructions p {
@@ -35,8 +35,9 @@
     margin-top: 1.5%;
 }
 
-.instructions-right img{
-    width: 45%;
+.instructions-right img {
+    width: 40%;
+    margin-bottom: 15px;
 }
 
 .btn-next{
@@ -60,9 +61,32 @@
     box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
   }
 
+.instructions-right .container-indicators {
+    position: relative;
+    width: 96%;
+}
+
+.instructions-right .content-indicators {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #df5151c6;
+    height: 110px;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+
+.instructions-right .content-indicators .label-indicators p {
+    margin: 15px 5px;
+}
+
+.instructions-right .progressbar-indicators{
+    width: 40% !important;
+    margin-right: 25px !important;
+}
+
   @media (max-width: 1024px) {
     .content-instructions{
-        margin-top: 10%;
+        margin-top: 15%;
         width: 90%;
     }
     .btn-next{
@@ -74,6 +98,7 @@
   @media (max-width: 768px) {
     .content-instructions{
         width: 90%;
+        margin-top: 20%;
     }
     .btn-next{
         margin-left: 40%;
@@ -84,6 +109,7 @@
       .content-instructions{
           display: flex;
           flex-direction: column;
+          margin-top: 35%;
       }
       .content-instructions div{
         width: 100%;
@@ -91,16 +117,28 @@
     .btn-next{
         margin-left: 30%;
     }
+    .instructions-right .content-indicators {
+        width: 80% !important;
+    }
+    .container-instructions .container-indicators .content-indicators{
+        width: 75%;
+    }
   }
 
   
   @media (max-width: 375px) {
+      .content-instructions{
+          margin-top: 40%;
+      }
     .btn-next{
         margin-left: 29%;
     }
   }
 
   @media (max-width: 320px) {
+    .content-instructions{
+        margin-top: 50%;
+    }
     .btn-next{
         margin-left: 25%;
     }

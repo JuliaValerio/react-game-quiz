@@ -1,0 +1,57 @@
+.container-indicators{
+  position: absolute;
+  color: #fff;
+  font-size: 0.8em;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  }
+  
+  .container-indicators img{
+    margin-right:10px;
+  }
+  
+  .content-indicators{
+    margin-top: 20px;
+    position: relative;
+    background-color: #ca2231;
+    border-radius: 6px;
+    width: 25%;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+  }
+  
+  .label-indicators {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid #fff; */
+    margin: 5px;
+  }
+  
+  .progressbar-indicators{
+    width: 50% !important;
+    background-color: #fff;
+    border-radius: 4px;
+    height: 13px;
+    width: 200px;
+    padding: 4px;
+    float: right;
+  }
+  
+  .indicator-satisfacao, .indicator-fidelizacao{
+    border-radius: 5px;
+    height:100%;
+  }
+  
+  .indicator-satisfacao{
+    background-color:#336AB2;
+  }
+  
+  .indicator-fidelizacao{
+    background-color:#68469B;
+  }
