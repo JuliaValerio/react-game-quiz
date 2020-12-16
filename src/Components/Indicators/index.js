@@ -3,12 +3,12 @@ import './style.css'
 
 const Indicators = (props) => {
 
-    var pontuacaoMaxima = 10
+    let pontuacaoMaxima = 10
 
-    var porcentagemSatisfacao = props.satisfacao / pontuacaoMaxima * 100;
-    var porcentagemFidelizacao = props.fidelizacao / pontuacaoMaxima * 100;
+    let porcentagemSatisfacao = props.satisfacao / pontuacaoMaxima * 100;
+    let porcentagemFidelizacao = props.fidelizacao / pontuacaoMaxima * 100;
 
-    var scope = {
+    let scope = {
       styleSatisfacao:{
         width: porcentagemSatisfacao + '%'
       },
